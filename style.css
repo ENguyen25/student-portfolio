@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DBF5F0;
+}
+
+header, h1, h2, h3, h4 {
+    font-family: 'Andika', sans-serif;
+}
+
+header {
+    margin: 0;
+    background-color: #0C6170;
+    color: #DBF5F0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    text-decoration: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.heading {
+    margin-right: 2%;
+    color: #0C6170;
+}
+
+#bg-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-image: url(Images/triangle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    margin: 0;
+}
+
+#bg-image #subtitle {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.content {
+    width: 70%;
+    padding-left: 2%;
+    border-left: 3px solid #0C6170;
+    margin: 2%;    
+}
+
+.content p {
+    margin: 0;
+}
+
+#about-me .content {
+    display: flex;
+    flex-direction: row;
+}
+
+#about-me .content p {
+    margin-left: 2%;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#contact-links p {
+    margin-right: 4%;
+}
+
+footer {
+    background-color: #0C6170;
+    color: #DBF5F0;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #DBF5F0;
+}
+
+a:hover {
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
