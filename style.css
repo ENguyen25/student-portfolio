@@ -42,6 +42,10 @@ a:hover {
     color: var(--light);
 }
 
+#links:hover {
+    color: var(--secondary);
+}
+
 h1, h4 {
     margin: 0;
 }
@@ -151,22 +155,22 @@ img {
     background-color: var(--secondary);
 }
 
-#paxamour, #mj, #photo {
+#lucidstream, #weather, #coding {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-#paxamour {
-    background-image: url(Images/PaxamourLogo.JPG);
+#lucidstream {
+    background-image: url(Images/lucidstream.jpg);
 }
 
-#mj {
-    background-image: url(https://d279m997dpfwgl.cloudfront.net/wp/2017/06/0620_michael-jackson.jpg);
+#weather {
+    background-image: url(Images/weather.png);
 }
 
-#photo {
-    background-image: url(Images/nature.jpg);
+#coding {
+    background-image: url(Images/coding.jpg);
 }
 
 .contact-links {
@@ -178,7 +182,7 @@ img {
     margin-right: 5%;
 }
 
-.resume-card:nth-child(1) {
+.resume-card {
     margin-bottom: 10px;
 }
 
@@ -189,12 +193,11 @@ img {
 }
 
 .resume-content {
-    display: none;
     color: var(--dark);
 }
 
-.resume-header:hover + .resume-content {
-    display: block;
+.hidden {
+    display: none;
 }
 
 @media screen and (max-width: 992px) {
